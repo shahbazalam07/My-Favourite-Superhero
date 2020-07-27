@@ -1,0 +1,75 @@
+body{
+
+max-width: 1000px;
+margin: auto;
+font-family: Roboto;
+font-size: 16px;
+}
+h4{
+    font: italic small-caps bolder 28px arial, sans-serif;
+}
+
+.right{
+	float: right;
+}
+
+
+
+
+#image{ 
+          float: left;
+          padding: 0px 20px 20px 20px;
+ }
+ #identity{
+ 	overflow: auto;
+ }
+ #background-image{
+ 	background-image: url("images/wayne.jpg");
+ 	height: 300px;
+ 	padding-top: 40px;
+ 	color: #fff;
+ 	margin-top: 35px;
+ }
+ #content{
+ 	  background-color: rgba(0,0,0,0.7);
+ 	  max-width: 500px;
+ 	  padding: 30px 50px;
+ 	  margin-top: 30px;
+
+ }
+ table {
+ 	border:2px solid;
+ 	width: 100%;
+ 	border-collapse: collapse;
+ }
+ th , td {
+ 	    padding: 18px;
+ 	    height: 2px solid #a4a4a4;
+ 	    height: 31px;
+    }
+    th{
+    	text-align: left;
+    	background-color: #ececec;
+    }      
+    
+    nav{
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	
+
+    }
+
+  li a {
+    	display: block;
+    	color: #666;
+    	padding: 14px 16px;
+    	text-decoration: none;
+    	float: right;
+
+    }
+    #header{
+    	padding: 5px,0px;
+    	border-bottom: 1px solid;
+    }
+
